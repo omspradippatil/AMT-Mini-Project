@@ -2,6 +2,13 @@
 
 An interactive Streamlit web dashboard for visualising score probability distributions and predicting probabilities based on completion-time thresholds.
 
+[![Deploy to GitHub Pages](https://github.com/omspradippatil/AMT-Mini-Project/actions/workflows/deploy.yml/badge.svg)](https://github.com/omspradippatil/AMT-Mini-Project/actions/workflows/deploy.yml)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-2ea44f?style=for-the-badge&logo=github)](https://omspradippatil.github.io/AMT-Mini-Project/)
+
+🚀 **Live Deployment URL:** [https://omspradippatil.github.io/AMT-Mini-Project/](https://omspradippatil.github.io/AMT-Mini-Project/)
+
+---
+
 ## Features
 
 | Component | Description |

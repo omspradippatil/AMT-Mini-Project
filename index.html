@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Probability Distribution Dashboard</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@stlite/browser@1.11.0/build/stlite.css"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@stlite/browser@1.11.0/build/stlite.js"
+    ></script>
+  </head>
+  <body>
+    <streamlit-app src="./app.py">
+      <app-file name="core/__init__.py" url="./core/__init__.py"></app-file>
+      <app-file name="core/data_generator.py" url="./core/data_generator.py"></app-file>
+      <app-file name="core/symbolic_mgf.py" url="./core/symbolic_mgf.py"></app-file>
+      <app-file name="core/stats_engine.py" url="./core/stats_engine.py"></app-file>
+      <app-file name="core/predictor.py" url="./core/predictor.py"></app-file>
+      <app-file name="charts/__init__.py" url="./charts/__init__.py"></app-file>
+      <app-file name="charts/histogram_chart.py" url="./charts/histogram_chart.py"></app-file>
+      <app-file name="charts/pdf_chart.py" url="./charts/pdf_chart.py"></app-file>
+      <app-file name="charts/cdf_chart.py" url="./charts/cdf_chart.py"></app-file>
+      <app-requirements>
+        numpy
+        pandas
+        scipy
+        sympy
+        matplotlib
+        seaborn
+      </app-requirements>
+    </streamlit-app>
+  </body>
+</html>
